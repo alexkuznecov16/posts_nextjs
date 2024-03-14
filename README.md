@@ -10,7 +10,7 @@ This is a simple Next.js project for managing posts. The project includes featur
 3. [Project Structure](#project-structure)
 4. [Technologies Used](#technologies-used)
 5. [Contributing](#contributing)
-6. [License](#license)
+6. [Contacts](#contacts)
 
 ## Installation
 
@@ -59,11 +59,7 @@ The project follows a simple structure:
 
 Contributions to this project are welcome! If you have any suggestions, bug fixes, or new features to propose, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute the code for personal or commercial use.
-
-### Contact Me
+## Contacts
 
 Feel free to reach out to me via the following channels:
 
