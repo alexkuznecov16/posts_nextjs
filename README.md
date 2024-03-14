@@ -18,7 +18,7 @@ To get started with this project, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/next-js-post-project.git
+git clone https://github.com/alexkuznecov16/posts_nextjs.git
 
 2. Navigate into the project directory:
 
@@ -43,19 +43,16 @@ npm run dev
 
 The project follows a simple structure:
 
-- `pages/`: Contains Next.js pages, including the homepage (`index.tsx`), posts page (`posts.tsx`), and individual post page (`post/[id].tsx`).
-- `components/`: Contains React components used throughout the project, such as `Header.tsx`, `Footer.tsx`, `Posts.tsx`, and `Post.tsx`.
+- `app/.tsx`: Contains Next.js pages, including the homepage (`page.tsx`), posts page (`./posts/page.tsx`), and individual post page (`./posts/post/[id]/page.tsx`).
+- `app/components/`: Contains React components used throughout the project, such as `Header.tsx`, `Footer.tsx`, `Posts.tsx`, and `Post.tsx`.
 - `api/`: Contains the backend API route for fetching posts (`data.ts`).
-- `public/`: Contains static assets, such as images and fonts.
-- `styles/`: Contains global CSS styles and theme settings.
+- `app/global.css`: Contains global CSS styles and theme settings.
 
 ## Technologies Used
 
 - Next.js: A React framework for building server-side rendered and statically generated web applications.
 - React.js: A JavaScript library for building user interfaces.
 - MySQL: A relational database management system used for storing and retrieving post data.
-- Tailwind CSS: A utility-first CSS framework used for styling components.
-- Jest: A JavaScript testing framework used for unit testing components and utility functions.
 - GitHub: Version control and collaboration platform for managing project code.
 
 ## Contributing
@@ -65,3 +62,11 @@ Contributions to this project are welcome! If you have any suggestions, bug fixe
 ## License
 
 This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute the code for personal or commercial use.
+
+### Contact Me
+
+Feel free to reach out to me via the following channels:
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-alexanderkuznecov-blue)](https://www.linkedin.com/in/alexander-kuznecov)
+[![Gmail](https://img.shields.io/badge/Gmail-alexander.kuznecov16%40gmail.com-red)](mailto:alexander.kuznecov16@gmail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-%40kznws-blue)](https://t.me/kznws)
