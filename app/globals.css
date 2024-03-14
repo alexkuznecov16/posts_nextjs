@@ -28,6 +28,7 @@ header {
 
 header strong {
   font-size: 30px;
+  font-size: clamp(10px, 4vw, 30px);
 }
 
 nav {
@@ -38,6 +39,7 @@ nav {
 header a {
   text-decoration: none;
   color: #e66f6f;
+  font-size: clamp(10px, 4vw, 30px);
 }
 
 a:hover {
@@ -71,7 +73,7 @@ a:hover {
 }
 
 .post__block .post {
-  width: 600px;
+  width: clamp(150px, 10vw, 700px);
 }
 
 .post {
@@ -90,6 +92,11 @@ a:hover {
 
 .post h2 {
   font-size: 20px;
+}
+
+.text__block p {
+  padding: 2px;
+  font-size: clamp(4px, 4vw, 17px);
 }
 
 footer {
