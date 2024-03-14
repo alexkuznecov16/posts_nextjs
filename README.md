@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Post Project
 
-## Getting Started
+![Next.js Logo](https://cdn.worldvectorlogo.com/logos/next-js.svg)
 
-First, run the development server:
+This is a simple Next.js project for managing posts. The project includes features such as fetching and displaying posts from a backend server, viewing individual post details, and error handling for invalid post IDs.
 
-```bash
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Project Structure](#project-structure)
+4. [Technologies Used](#technologies-used)
+5. [Contributing](#contributing)
+6. [License](#license)
+
+## Installation
+
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+
+git clone https://github.com/your-username/next-js-post-project.git
+
+2. Navigate into the project directory:
+
+cd next-js-post-project
+
+3. Install dependencies:
+
+npm install
+
+## Usage
+
+Once the dependencies are installed, you can run the project locally:
+
+1. Start the Next.js development server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the project.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Project Structure
 
-## Learn More
+The project follows a simple structure:
 
-To learn more about Next.js, take a look at the following resources:
+- `pages/`: Contains Next.js pages, including the homepage (`index.tsx`), posts page (`posts.tsx`), and individual post page (`post/[id].tsx`).
+- `components/`: Contains React components used throughout the project, such as `Header.tsx`, `Footer.tsx`, `Posts.tsx`, and `Post.tsx`.
+- `api/`: Contains the backend API route for fetching posts (`data.ts`).
+- `public/`: Contains static assets, such as images and fonts.
+- `styles/`: Contains global CSS styles and theme settings.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Next.js: A React framework for building server-side rendered and statically generated web applications.
+- React.js: A JavaScript library for building user interfaces.
+- MySQL: A relational database management system used for storing and retrieving post data.
+- Tailwind CSS: A utility-first CSS framework used for styling components.
+- Jest: A JavaScript testing framework used for unit testing components and utility functions.
+- GitHub: Version control and collaboration platform for managing project code.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions to this project are welcome! If you have any suggestions, bug fixes, or new features to propose, please open an issue or submit a pull request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to modify and distribute the code for personal or commercial use.
