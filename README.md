@@ -1,7 +1,5 @@
 # Next.js Post Project
 
-![Next.js Logo](https://cdn.worldvectorlogo.com/logos/next-js.svg)
-
 This is a simple Next.js project for managing posts. The project includes features such as fetching and displaying posts from a backend server, viewing individual post details, and error handling for invalid post IDs.
 
 ## Table of Contents
